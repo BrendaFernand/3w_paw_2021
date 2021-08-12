@@ -6,6 +6,7 @@ servidor.get("/", (req, res, next) => {
      "mensagem": "Bem-vindo ao servidor Node.js"
 })
 })
+
 servidor.listen(3000, () => {
      console.log("Servidor funcionando!")
 })
